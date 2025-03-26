@@ -1,0 +1,1814 @@
+{
+  "foodItems": [
+    {
+      "id": "1",
+      "name": "मिनरल वॉटर",
+      "category": "Beverages",
+      "subCategory": "Drinks",
+      "description": "Bottled mineral water",
+      "price": 20,
+      "discountPrice": 20,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2023/12/371496094/HQ/PS/SV/111795938/bisleri-250ml-mineral-water-bottle.jpg"
+    },
+    {
+      "id": "2",
+      "name": "टी",
+      "category": "Beverages",
+      "subCategory": "Hot Drinks",
+      "description": "Refreshing hot tea",
+      "price": 30,
+      "discountPrice": 30,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://www.sharmispassions.com/wp-content/uploads/2012/12/cardamom-tea3.jpg"
+    },
+    {
+      "id": "3",
+      "name": "फ्रेश लाईम वाटर",
+      "category": "Beverages",
+      "subCategory": "Cold Drinks",
+      "description": "Fresh lime water",
+      "price": 30,
+      "discountPrice": 30,
+      "rating": 4.4,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5GPf5-XKpyEgicr3h2vF7lD_1vQeIYUUmoA&s"
+    },
+    {
+      "id": "4",
+      "name": "हॉट कॉफी",
+      "category": "Beverages",
+      "subCategory": "Hot Drinks",
+      "description": "Hot brewed coffee",
+      "price": 40,
+      "discountPrice": 40,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-9-PH9LXZOH0kxKcFkVW2UFXkxRgv4VZMOw&s"
+    },
+    {
+      "id": "5",
+      "name": "बटर मिल्क",
+      "category": "Beverages",
+      "subCategory": "Cold Drinks",
+      "description": "Refreshing buttermilk",
+      "price": 40,
+      "discountPrice": 40,
+      "rating": 4.3,
+      "tag": "",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/5/LE/BG/OB/134265478/butter-milk-500x500.jpg"
+    },
+    {
+      "id": "6",
+      "name": "कोल्ड्रीक्स (३०० मिली)",
+      "category": "Beverages",
+      "subCategory": "Soft Drinks",
+      "description": "Cold drink (300ml bottle)",
+      "price": 30,
+      "discountPrice": 30,
+      "rating": 4.2,
+      "tag": "",
+      "image": "https://resize.indiatv.in/resize/newbucket/1200_-/2017/12/cold-drink-1512371815.jpg"
+    },
+    {
+      "id": "7",
+      "name": "लस्सी स्विट | साल्टेड",
+      "category": "Beverages",
+      "subCategory": "Dairy Drinks",
+      "description": "Sweet or salted lassi",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6hU2NRZ1CbAVD9Gt6khnG42lBZ6f831Hg-Q&s"
+    },
+    {
+      "id": "8",
+      "name": "कोल्ड कॉफी",
+      "category": "Beverages",
+      "subCategory": "Cold Drinks",
+      "description": "Chilled cold coffee",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://mytastycurry.com/wp-content/uploads/2020/04/Cafe-style-cold-coffee-with-icecream.jpg"
+    },
+    {
+      "id": "9",
+      "name": "लस्सी विथ आईस्क्रिम",
+      "category": "Beverages",
+      "subCategory": "Dairy Drinks",
+      "description": "Lassi with ice cream",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://b.zmtcdn.com/data/dish_photos/994/15b9abd20758f7e9c96f7784862a9994.png"
+    },
+    {
+      "id": "10",
+      "name": "आईस्क्रिम",
+      "category": "Desserts",
+      "subCategory": "Ice Cream",
+      "description": "Delicious ice cream",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/khushbu-dalwadi20180929234440703.jpeg"
+    },
+    {
+      "id": "11",
+      "name": "रियल स्ट्रॉबेरी शेक",
+      "category": "Beverages",
+      "subCategory": "Milkshakes",
+      "description": "Real strawberry milkshake",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGqcvdoQUEKQIBtSCoNndPspnmUIeoXSs2IQ&s"
+    },
+    {
+      "id": "12",
+      "name": "मँगो डिलाईट शेक",
+      "category": "Beverages",
+      "subCategory": "Milkshakes",
+      "description": "Mango delight milkshake",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://images.stockcake.com/public/e/7/4/e74b3779-df1f-479d-bd8b-51765de09002_large/mango-smoothie-delight-stockcake.jpg"
+    },
+    {
+      "id": "13",
+      "name": "चॉकलेट शेक",
+      "category": "Beverages",
+      "subCategory": "Milkshakes",
+      "description": "Rich chocolate milkshake",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOIt140gm_8qrh6Ltgdc3szcrPV1EPrFadRg&s"
+    },
+    {
+      "id": "14",
+      "name": "पायनापल शेक",
+      "category": "Beverages",
+      "subCategory": "Milkshakes",
+      "description": "Refreshing pineapple milkshake",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://static.toiimg.com/thumb/53666744.cms?imgsize=125380&width=800&height=800"
+    },
+    {
+      "id": "15",
+      "name": "बटर स्कॉच शेक",
+      "category": "Beverages",
+      "subCategory": "Milkshakes",
+      "description": "Creamy butterscotch milkshake",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXrDIQX8Ktfz32UhGxOzCmgeJW2b9FzVZ-hA&s"
+    },
+    {
+      "id": "16",
+      "name": "व्हेज मन चाऊ सुप",
+      "category": "Soups",
+      "subCategory": "Chinese Soups",
+      "description": "Delicious veg Manchow soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwosxWuU9VKyx4g7ilhpF133rydLlw_6xgvQ&s"
+    },
+    {
+      "id": "17",
+      "name": "हॉट अॅन्ड सॉर सुप",
+      "category": "Soups",
+      "subCategory": "Chinese Soups",
+      "description": "Spicy and tangy hot & sour soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQetlMIgxMF7LKbtJjoJYN3b03nZ8Dw9_UBjg&s"
+    },
+    {
+      "id": "18",
+      "name": "व्हेज मशरूम सुप",
+      "category": "Soups",
+      "subCategory": "Vegetarian Soups",
+      "description": "Creamy veg mushroom soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS3FKomsLWj2xLLK6iwXR_2RUqQ3_rHs3QMww&s"
+    },
+    {
+      "id": "19",
+      "name": "नुडल्स सुप",
+      "category": "Soups",
+      "subCategory": "Chinese Soups",
+      "description": "Warm and comforting noodles soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSUPy_QmUX431AG9ycAXf1Wp78zYF5KDeg-w&s"
+    },
+    {
+      "id": "20",
+      "name": "क्रिम ऑफ टोमॅटो सुप",
+      "category": "Soups",
+      "subCategory": "Creamy Soups",
+      "description": "Rich and creamy tomato soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/01/cream-of-tomato-soup-recipe.jpg"
+    },
+    {
+      "id": "21",
+      "name": "पालक सुप",
+      "category": "Soups",
+      "subCategory": "Vegetarian Soups",
+      "description": "Healthy and nutritious spinach soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSMpQye6qWsF2n0jKyx4NEsBhGB4gl4vQjoyA&s"
+    },
+    {
+      "id": "22",
+      "name": "क्रिम ऑफ व्हेज सुप",
+      "category": "Soups",
+      "subCategory": "Creamy Soups",
+      "description": "Smooth and creamy vegetable soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://dishingouthealth.com/wp-content/uploads/2023/03/CreamyVegSoup_squarejpg.jpg"
+    },
+    {
+      "id": "23",
+      "name": "व्हेज क्लिअर सुप",
+      "category": "Soups",
+      "subCategory": "Clear Soups",
+      "description": "Light and refreshing veg clear soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://www.sharmispassions.com/wp-content/uploads/2022/12/VegClearSoup4.jpg"
+    },
+    {
+      "id": "24",
+      "name": "लेमन कोरिंडर सुप",
+      "category": "Soups",
+      "subCategory": "Herbal Soups",
+      "description": "Refreshing lemon coriander soup",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://www.indianveggiedelight.com/wp-content/uploads/2020/03/lemon-coriander-soup-featured.jpg"
+    },
+    {
+      "id": "25",
+      "name": "टोमॅटो शोरबा",
+      "category": "Soups",
+      "subCategory": "Indian Soups",
+      "description": "Traditional tomato shorba",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcScximFCz579-iQf5URsnssnAAK689lLbbmbw&s"
+    },
+    {
+      "id": "26",
+      "name": "ग्रिन पेपर सुप",
+      "category": "Soups",
+      "subCategory": "Vegetarian Soups",
+      "description": "Peppery green soup with a mild spice",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://domesticate-me.com/wp-content/uploads/2016/03/vegan-bell-pepper-soup-with-sweet-potato-9.jpg"
+    },
+    {
+      "id": "27",
+      "name": "पापड रोस्टेड",
+      "category": "Snacks",
+      "subCategory": "Papad",
+      "description": "Crispy roasted papad",
+      "price": 20,
+      "discountPrice": 20,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://www.archanaskitchen.com/images/archanaskitchen/BasicRecipes_HOW_TO/How_to_roast_papad.jpg"
+    },
+    {
+      "id": "28",
+      "name": "पापड फ्राय",
+      "category": "Snacks",
+      "subCategory": "Papad",
+      "description": "Crunchy deep-fried papad",
+      "price": 20,
+      "discountPrice": 20,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://static.sociofyme.com/thumb/113840374/113840374.jpg?imgsize=60960&width=420&height=746&resizemode=76"
+    },
+    {
+      "id": "29",
+      "name": "पापड फ्राईड मसाला",
+      "category": "Snacks",
+      "subCategory": "Papad",
+      "description": "Fried papad with tangy masala seasoning",
+      "price": 20,
+      "discountPrice": 20,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsIr3wwPas6K0eE4eOJ7nlI8JeJvKA3gJSow&s"
+    },
+    {
+      "id": "30",
+      "name": "नागली चिप्स पापड",
+      "category": "Snacks",
+      "subCategory": "Papad",
+      "description": "Healthy ragi (finger millet) chips papad",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://rukminim2.flixcart.com/image/850/1000/kuk4u4w0/fryum-papad/9/f/h/800-ragi-nachni-papad-400gms-x-pack-of-2-2-plain-papad-balasa-original-imag7nbgctejnvzb.jpeg?q=20&crop=false"
+    },
+    {
+      "id": "31",
+      "name": "पापड भुर्जी",
+      "category": "Snacks",
+      "subCategory": "Papad",
+      "description": "Scrambled papad with spices",
+      "price": 90,
+      "discountPrice": 90,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://foodoncall.co.in/wp-content/uploads/2017/10/papad-churi.jpg"
+    },
+    {
+      "id": "32",
+      "name": "व्हेज मंच्युरीयन",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Crispy vegetable Manchurian balls in spicy sauce",
+      "price": 110,
+      "discountPrice": 110,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxR1_LCBWnDJECZq7-d0Cr2JNY3Sm-Ga7BFA&s"
+    },
+    {
+      "id": "33",
+      "name": "आलु ६५",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Spicy and crispy potato 65",
+      "price": 110,
+      "discountPrice": 110,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiUF58l7q9yt9j6foGDzYjhDff7SRIh659WQ&s"
+    },
+    {
+      "id": "34",
+      "name": "व्हेज-६५",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Crispy mixed vegetable 65",
+      "price": 110,
+      "discountPrice": 110,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpYLrnnYRm1JUnX7dOhohyivecNA9AQlhYDA&s"
+    },
+    {
+      "id": "35",
+      "name": "मशरूम चिल्ली",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Spicy chili mushrooms tossed with sauces",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-1n7NNlnS2EPbV3tNl-qk9_PwFqtf3GuLqw&s"
+    },
+    {
+      "id": "36",
+      "name": "गोबी मंच्युरीयन",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Crispy cauliflower Manchurian in tangy sauce",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTA_gGsJIIA3s5JtT7oNVtaTsfsuBnDUlZ4fw&s"
+    },
+    {
+      "id": "37",
+      "name": "व्हेज ग्रिन मंच्युरीयन",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Green vegetable Manchurian with mild spices",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/a699cae7f2c8ce32/680x482cq70/%E0%A4%B5%E0%A4%B9%E0%A4%9C-%E0%A4%AE%E0%A4%9A%E0%A4%AF%E0%A4%B0%E0%A4%AF%E0%A4%A8-veg-manchurin-recipe-in-marathi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%9A-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%AB%E0%A4%9F.jpg"
+    },
+    {
+      "id": "38",
+      "name": "व्हेज रेड मंच्युरीयन",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Red spicy vegetable Manchurian",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/a699cae7f2c8ce32/680x482cq70/%E0%A4%B5%E0%A4%B9%E0%A4%9C-%E0%A4%AE%E0%A4%9A%E0%A4%AF%E0%A4%B0%E0%A4%AF%E0%A4%A8-veg-manchurin-recipe-in-marathi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%9A-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%AB%E0%A4%9F.jpg"
+    },
+    {
+      "id": "39",
+      "name": "व्हेज क्रिस्पी",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Crispy fried vegetables with seasoning",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/f1154d387a7f4d52/680x482cq70/%E0%A4%B5%E0%A4%9C-%E0%A4%95%E0%A4%B0%E0%A4%B8%E0%A4%AA-veg-crispy-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "40",
+      "name": "व्हेज क्रंची",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Crunchy mixed vegetables with spices",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://i.ytimg.com/vi/Zs4_hYiT084/sddefault.jpg"
+    },
+    {
+      "id": "41",
+      "name": "पनीर चिल्ली",
+      "category": "Chinese",
+      "subCategory": "Veg Starters",
+      "description": "Paneer cubes sautéed in chili sauce",
+      "price": 180,
+      "discountPrice": 180,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn82o4spB5ZPF3NKmPA2PTckpbaSHYNYnhDg&s"
+    },
+    {
+      "id": "42",
+      "name": "व्हेज हक्का नुडल्स",
+      "category": "Chinese",
+      "subCategory": "Noodles",
+      "description": "Stir-fried Hakka noodles with mixed vegetables",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://cdn1.foodviva.com/static-content/food-images/chinese-recipes/veg-hakka-noodles/veg-hakka-noodles.jpg"
+    },
+    {
+      "id": "43",
+      "name": "सिजवान फ्राईड राईस",
+      "category": "Chinese",
+      "subCategory": "Rice",
+      "description": "Spicy Schezwan fried rice with vegetables",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZbpPebGZQM938qaDMEfMZABN96mPi_jfTtg&s"
+    },
+    {
+      "id": "44",
+      "name": "अमेरीकन चॉप्सी",
+      "category": "Chinese",
+      "subCategory": "Chopsuey",
+      "description": "Crispy noodles topped with sweet and sour sauce",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2017/11/veg-american-chopsuey-recipe-1-500x500.jpg"
+    },
+    {
+      "id": "45",
+      "name": "Veg Chinese Chop Suey",
+      "category": "Chinese",
+      "subCategory": "Chopsuey",
+      "description": "Crispy noodles with spicy Manchurian sauce",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://www.funfoodfrolic.com/wp-content/uploads/2021/03/Chinese-Chopsuey-1.jpg"
+    },
+    {
+      "id": "46",
+      "name": "सिंगापुरी फ्राईड राईस",
+      "category": "Chinese",
+      "subCategory": "Rice",
+      "description": "Spicy Singapore-style fried rice with vegetables",
+      "price": 180,
+      "discountPrice": 180,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSz0N0ZUFUxJHiZ_JBtTsow9Hh4f_-UcLcXQw&s"
+    },
+    {
+      "id": "47",
+      "name": "ट्रीपल सेजवान राई",
+      "category": "Chinese",
+      "subCategory": "Rice",
+      "description": "Triple-layered spicy Schezwan rice with gravy",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRzOBBHyiMigelN7wHIYkDZF7P1oG1eabVtog&s"
+    },
+    {
+      "id": "48",
+      "name": "मुंबई भेल",
+      "category": "Snacks & Chaat",
+      "subCategory": "Street Food",
+      "description": "Mumbai-style spicy and tangy snack",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZvMeuOIbE1yU3idYmqM5N8XpL-qFNWj6UGA&s"
+    },
+    {
+      "id": "49",
+      "name": "ओनियन पकोडा",
+      "category": "Snacks & Chaat",
+      "subCategory": "Fried Snacks",
+      "description": "Crispy onion fritters",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/07/onion-pakoda-pakora.jpg"
+    },
+    {
+      "id": "50",
+      "name": "आलु चाट",
+      "category": "Snacks & Chaat",
+      "subCategory": "Chaat",
+      "description": "Spicy and tangy potato chaat",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRjFMAG467-Uwoumr49slZHog888LhO4Vz_Fw&s"
+    },
+    {
+      "id": "51",
+      "name": "चना चाट",
+      "category": "Snacks & Chaat",
+      "subCategory": "Chaat",
+      "description": "Chickpea chaat with spices and chutneys",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRaQ84qoFGW6JA2GNAd-RsPYqG4OK_Mp2V0UA&s"
+    },
+    {
+      "id": "52",
+      "name": "मसाला फिगर चिप्स",
+      "category": "Snacks & Chaat",
+      "subCategory": "Fried Snacks",
+      "description": "Spicy finger chips with seasoning",
+      "price": 100,
+      "discountPrice": 100,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://greatcurryrecipes.net/wp-content/uploads/2016/07/masalafries-540x720.jpg"
+    },
+    {
+      "id": "53",
+      "name": "पाव भाजी",
+      "category": "Snacks & Chaat",
+      "subCategory": "Street Food",
+      "description": "Butter-toasted pav served with spicy mashed vegetable curry",
+      "price": 100,
+      "discountPrice": 100,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzJVYMvK9RwzZ5LOfGG5wjAZU1r-664As2hA&s"
+    },
+    {
+      "id": "54",
+      "name": "व्हेज पकोडा",
+      "category": "Snacks & Chaat",
+      "subCategory": "Fried Snacks",
+      "description": "Assorted vegetable fritters",
+      "price": 100,
+      "discountPrice": 100,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQnJjmFn2li9md0DP33N2W1X1t4ZtIaLkyUdw&s"
+    },
+    {
+      "id": "55",
+      "name": "छोला भटुरा",
+      "category": "Snacks & Chaat",
+      "subCategory": "Street Food",
+      "description": "Spicy chickpea curry served with deep-fried fluffy bread",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/b25241e89590a820/680x482cq70/%E0%A4%9B%E0%A4%B2-%E0%A4%AD%E0%A4%9F%E0%A4%B0-chole-bhature-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "56",
+      "name": "चायनिज भेल",
+      "category": "Snacks & Chaat",
+      "subCategory": "Chinese Fusion",
+      "description": "Crispy noodles mixed with tangy and spicy Chinese sauces",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQOYUs_E7cbjo5l-d5XcNI7h6yhWNs0u78LEA&s"
+    },
+    {
+      "id": "57",
+      "name": "पनीर पकोडा",
+      "category": "Snacks & Chaat",
+      "subCategory": "Fried Snacks",
+      "description": "Deep-fried paneer fritters",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSeebHxp4o2Glq5qUj9gvc1Xj60O2w65Nm-Gw&s"
+    },
+    {
+      "id": "58",
+      "name": "प्लेन फिंगर चिप्स",
+      "category": "उपवास का स्वाद",
+      "subCategory": "Fasting Snacks",
+      "description": "Simple salted finger chips",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://masalachilli.com/wp-content/uploads/2021/04/Air-Fryer-French-Fries-2.jpg"
+    },
+    {
+      "id": "59",
+      "name": "साबुदाना वडा",
+      "category": "उपवास का स्वाद",
+      "subCategory": "Fasting Snacks",
+      "description": "Crispy sago fritters, perfect for fasting",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTLE-iIV6NKiXpAAEXnGMUIQdGhPs79PVwItQ&s"
+    },
+    {
+      "id": "60",
+      "name": "साबुदाना खिचडी",
+      "category": "उपवास का स्वाद",
+      "subCategory": "Fasting Meals",
+      "description": "Sago pearls cooked with peanuts and mild spices",
+      "price": 100,
+      "discountPrice": 100,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2023/02/sabudana-khichdi-3.jpg"
+    },
+    {
+      "id": "61",
+      "name": "हरी भरी टिक्की",
+      "category": "शुरूवात तंदुर से",
+      "subCategory": "Tandoor Starters",
+      "description": "Healthy green vegetable patties cooked in tandoor",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/1e0d9ec0c564f68f/680x482cq70/%E0%A4%B9%E0%A4%B0-%E0%A4%AD%E0%A4%B0-%E0%A4%9F%E0%A4%95%E0%A4%95-hari-bhari-tikki-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "62",
+      "name": "तंदुर पनीर टिक्का",
+      "category": "शुरूवात तंदुर से",
+      "subCategory": "Tandoor Starters",
+      "description": "Soft paneer cubes marinated and grilled in tandoor",
+      "price": 260,
+      "discountPrice": 260,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgyeu6pzzp1ny2NDhWB2qDdAs5m0erB2RgOA&s"
+    },
+    {
+      "id": "63",
+      "name": "मशरूम टिक्का",
+      "category": "शुरूवात तंदुर से",
+      "subCategory": "Tandoor Starters",
+      "description": "Juicy mushrooms marinated in spices and grilled",
+      "price": 220,
+      "discountPrice": 220,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGbwS_2N8BYNqDlEwA6C3TA0GKXV7QCBGBNg&s"
+    },
+    {
+      "id": "64",
+      "name": "पहाडी टिक्का",
+      "category": "शुरूवात तंदुर से",
+      "subCategory": "Tandoor Starters",
+      "description": "Spicy and flavorful grilled tandoori tikka",
+      "price": 260,
+      "discountPrice": 260,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://bongappetitcom.wordpress.com/wp-content/uploads/2022/01/wp-1642517669631.jpg?w=1200"
+    },
+    {
+      "id": "65",
+      "name": "ग्रिन सलाद",
+      "category": "हरा-भरा सलाद",
+      "subCategory": "Salads",
+      "description": "Fresh green salad with cucumber, lettuce, and tomatoes",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://feeds.abplive.com/onecms/images/uploaded-images/2022/03/19/80fe588706a193f05ca2098628b1aaa8_original.jpg"
+    },
+    {
+      "id": "66",
+      "name": "कचुंबर सलाद",
+      "category": "हरा-भरा सलाद",
+      "subCategory": "Salads",
+      "description": "Traditional Indian salad with chopped onions, tomatoes, and cucumbers",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR44wFm5idwsbSVeDqE6iC5bf1Sb5cBHfRlJA&s"
+    },
+    {
+      "id": "67",
+      "name": "व्हेज चिज बर्गर",
+      "category": "बर्गर",
+      "subCategory": "Burgers",
+      "description": "Delicious veg burger with cheese and fresh veggies",
+      "price": 110,
+      "discountPrice": 110,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://images.slurrp.com/prod/recipe_images/cms/3myz5w2fhya.webp"
+    },
+    {
+      "id": "68",
+      "name": "बॉम्बे सॅन्डविच",
+      "category": "सॅन्डविच",
+      "subCategory": "Sandwiches",
+      "description": "Classic Bombay-style sandwich with fresh veggies and chutney",
+      "price": 80,
+      "discountPrice": 80,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://vanitascorner.com/wp-content/uploads/2023/04/Bombay-Sandwich-VC.jpg"
+    },
+    {
+      "id": "69",
+      "name": "चिज ग्रिल्ड सॅन्डविच",
+      "category": "सॅन्डविच",
+      "subCategory": "Sandwiches",
+      "description": "Grilled sandwich with melted cheese and crispy bread",
+      "price": 100,
+      "discountPrice": 100,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBZy8fBFJB4BjehvSaAhkqZu-w9Zmd6cBMiQ&s"
+    },
+    {
+      "id": "70",
+      "name": "किडस् पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Delicious kid-friendly pizza with a cheesy topping",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcuntGRoVfWqYee-jlxJL_WOMe52H6FVnOVQ&s"
+    },
+    {
+      "id": "71",
+      "name": "ओनियन/कॅप्सी पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Pizza topped with onions and capsicum",
+      "price": 220,
+      "discountPrice": 220,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://5.imimg.com/data5/SELLER/Default/2022/7/JD/NH/RL/40211322/new-product.jpeg"
+    },
+    {
+      "id": "72",
+      "name": "व्हेज चिज पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Vegetarian pizza with loads of cheese",
+      "price": 230,
+      "discountPrice": 230,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRK1fhpOPIF0Oqrn9hsOp0ejob3g_AgfK7I0Q&s"
+    },
+    {
+      "id": "73",
+      "name": "मशरूम पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Pizza loaded with fresh mushrooms and cheese",
+      "price": 230,
+      "discountPrice": 230,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://www.acouplecooks.com/wp-content/uploads/2019/06/Mushroom-Pizza-with-Herbs-011.jpg"
+    },
+    {
+      "id": "74",
+      "name": "पनिर पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Delicious paneer pizza with rich toppings",
+      "price": 250,
+      "discountPrice": 250,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2018/05/paneer-pizza-recipe-1.jpg"
+    },
+    {
+      "id": "75",
+      "name": "स्पेशल पिझ्झा",
+      "category": "पिझा",
+      "subCategory": "Pizza",
+      "description": "Special pizza with a variety of exotic toppings",
+      "price": 280,
+      "discountPrice": 280,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://cdn.uengage.io/uploads/5/image-222624-1715686809.png"
+    },
+    {
+      "id": "76",
+      "name": "सेव भाजी",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Spicy sev bhaji cooked with flavorful masalas",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.5,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRI1nOkeEPq3DlVecI1VVQL9SzAPHfUIX5now&s"
+    },
+    {
+      "id": "77",
+      "name": "पातोडी भाजी",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Delicious Patodi bhaji with rich spices",
+      "price": 120,
+      "discountPrice": 120,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ7Slk0zf8DmGAmUyizYtNto9B9KbuomALyVQ&s"
+    },
+    {
+      "id": "78",
+      "name": "बैगन भरता",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Smoky mashed brinjal with spices",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPJTRSltZDwHKN_Tkpri2lWlgzFXZshcTNWQ&s"
+    },
+    {
+      "id": "79",
+      "name": "बैगन मसाला",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Brinjal cooked in a rich masala gravy",
+      "price": 140,
+      "discountPrice": 140,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToCI7RvPLuVlHO35_AGhTWPKzdK6WBB6JukQ&s"
+    },
+    {
+      "id": "80",
+      "name": "व्हेज वन्हाडी",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Authentic village-style veg curry",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://thumbs.dreamstime.com/b/bhaji-indian-traditional-popular-street-fast-food-bhaji-indian-traditional-popular-street-fast-food-thick-spicy-195537941.jpg"
+    },
+    {
+      "id": "81",
+      "name": "व्हेज कोल्हापुरी",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Spicy Kolhapuri-style veg curry",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSR61VAVW18mvO1JiMTxY2gkGv6HSlzujVs1A&s"
+    },
+    {
+      "id": "82",
+      "name": "व्हेजमिर्ची स्पेशल झुनका",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Spicy mirchi zunka, a classic rural dish",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfrmt4mb80zzMvc0UOolZpryHs_t-Si7L0hQ&s"
+    },
+    {
+      "id": "83",
+      "name": "पनीर वन्हाडी",
+      "category": "वन्हाडी तडका",
+      "subCategory": "Traditional Dishes",
+      "description": "Paneer cooked in a special village-style curry",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.9,
+      "tag": "",
+      "image": "https://assalamravatimh27.com/wp-content/uploads/2025/02/panir.jpeg"
+    },
+    {
+      "id": "84",
+      "name": "पनीर दिलखुश कोफ्ता",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Rich and creamy paneer kofta in a special gravy",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/6e633cf105314237/400x400cq70/photo.jpg"
+    },
+    {
+      "id": "85",
+      "name": "पनीर मालवानी तडका",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Paneer cooked with authentic Malvani spices",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://i.ytimg.com/vi/d43r7rBi9hs/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBpIwoxTuka9HdsOVt-fT_5GRdvkg"
+    },
+    {
+      "id": "86",
+      "name": "पनीर पालक कोफ्ता",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Soft paneer and spinach kofta in a creamy curry",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSidhzOOaYNdNrs23APDmuzpQegUEIuphUX_g&s"
+    },
+    {
+      "id": "87",
+      "name": "नरगिस कोफ्ता",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Dishes",
+      "description": "Delicious kofta dish with a rich gravy",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://c.ndtvimg.com/2018-10/evpcq248_kofta_625x300_01_October_18.jpg"
+    },
+    {
+      "id": "88",
+      "name": "पनीर लच्छेदार",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Paneer cooked in a flavorful laccha-style masala",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://i.ytimg.com/vi/o1BJb7plxWI/sddefault.jpg"
+    },
+    {
+      "id": "89",
+      "name": "व्हेज मराठा बहार",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Veg Dishes",
+      "description": "Traditional Maharashtrian-style veg dish",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://i.ytimg.com/vi/X6CkG8z7-8Q/maxresdefault.jpg"
+    },
+    {
+      "id": "90",
+      "name": "पनीर कबाब करी",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Paneer kebabs in a rich and flavorful curry",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.8,
+      "tag": "",
+      "image": "https://resize.indiatv.in/resize/newbucket/1200_-/2017/07/paneer-kabab-recipe-e-1500369994.jpg"
+    },
+    {
+      "id": "91",
+      "name": "व्हेज मिर्ची स्पेशल",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Veg Dishes",
+      "description": "Spicy veg dish with a mirchi twist",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://i.ytimg.com/vi/qRwUk8YQZyA/hq720.jpg?sqp=-oaymwE7CK4FEIIDSFryq4qpAy0IARUAAAAAGAElAADIQj0AgKJD8AEB-AH-CYAC0AWKAgwIABABGH8gPygTMA8=&rs=AOn4CLDLAFQt28_AYhinqd2VifTzEP3l2Q"
+    },
+    {
+      "id": "92",
+      "name": "व्हेज श्रीमसागर",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Veg Dishes",
+      "description": "A signature veg dish with royal flavors",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.7,
+      "tag": "",
+      "image": "https://example.com/veg_shree_sagar.jpg"
+    },
+    {
+      "id": "93",
+      "name": "पनीर कलेजी",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Unique paneer dish with a rich masala",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.6,
+      "tag": "",
+      "image": "https://img-global.cpcdn.com/recipes/f89ec355a43bb731/680x482cq70/%E0%A4%B5%E0%A4%9C-%E0%A4%AA%E0%A4%A8%E0%A4%B0-%E0%A4%95%E0%A4%B2%E0%A4%9C-veg-paneer-kaleji-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "94",
+      "name": "स्पे. पनीर महाराजा",
+      "category": "तलाश कुछ खास की",
+      "subCategory": "Special Paneer Dishes",
+      "description": "Special Maharaja-style paneer dish with royal flavors",
+      "price": 200,
+      "discountPrice": 200,
+      "rating": 4.9,
+      "tag": "Special",
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/08/shahi-paneer.webp"
+    },
+    {
+      "id": "95",
+      "name": "पनीर चटपटा",
+      "category": "पनीर कोर्स",
+      "description": "Spicy and tangy paneer dish",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.6,
+      "image": "https://www.chefajaychopra.com/assets/img/recipe/1-1666006926DhabaStyleChatpataPaneerwebp.webp"
+    },
+    {
+      "id": "96",
+      "name": "पनीर हैद्राबादी",
+      "category": "पनीर कोर्स",
+      "description": "Paneer cooked with Hyderabadi-style spices",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuRfcXZpYebd3hykZ3bJk8ZVz1y8hJNngHVQ&s"
+    },
+    {
+      "id": "97",
+      "name": "पनीर मसाला",
+      "category": "पनीर कोर्स",
+      "description": "Classic paneer masala with rich gravy",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.5,
+      "image": "https://i.ytimg.com/vi/ln8jTsjjJEY/sddefault.jpg"
+    },
+    {
+      "id": "98",
+      "name": "पनीर मख्खनवाला",
+      "category": "पनीर कोर्स",
+      "description": "Paneer in a creamy buttery sauce",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "image": "https://img-global.cpcdn.com/recipes/416827175b31f72c/680x482cq70/%E0%A4%AA%E0%A4%A8%E0%A4%B0-%E0%A4%AE%E0%A4%96%E0%A4%96%E0%A4%A8%E0%A4%B5%E0%A4%B2-paneer-makhanwala-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "99",
+      "name": "पनीर मुमताज",
+      "category": "पनीर कोर्स",
+      "description": "Royal Mughlai-style paneer dish",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "image": "https://quantitykitchens.com/cdn/shop/files/PaneerMUMTAZ.png?v=1734638015"
+    },
+    {
+      "id": "100",
+      "name": "पनीर लजीज",
+      "category": "पनीर कोर्स",
+      "description": "Delicious paneer dish with rich flavors",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7gq9-ufuYVRYddoqDbicZXHRLoljxe1jb6w&s"
+    },
+    {
+      "id": "101",
+      "name": "पनीर अंगारा",
+      "category": "पनीर कोर्स",
+      "description": "Smoky and spicy paneer dish",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "image": "https://www.livehindustan.com/lh-img/uploadimage/library/2020/08/02/16_9/16_9_6/paneer_angara_1596378201.jpg"
+    },
+    {
+      "id": "102",
+      "name": "पनीर पसंदा",
+      "category": "पनीर कोर्स",
+      "description": "Paneer stuffed with dry fruits in a rich gravy",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/03/paneer-pasanda-recipe.jpg"
+    },
+    {
+      "id": "103",
+      "name": "पनीर कढाई",
+      "category": "पनीर कोर्स",
+      "description": "Paneer cooked in a spiced kadhai-style gravy",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTC5lz2Ykj3xkB32_xZR2sprTXPD4hhi0462Q&s"
+    },
+    {
+      "id": "104",
+      "name": "पनीर तवा मसाला",
+      "category": "पनीर कोर्स",
+      "description": "Paneer cooked with special tava masala",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.6,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTMoWs4NdgFPzy__l8G1SOCyrRq42YoIz2A3w&s"
+    },
+    {
+      "id": "105",
+      "name": "पनीर भुर्जी करी",
+      "category": "पनीर कोर्स",
+      "description": "Scrambled paneer in a flavorful curry",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.5,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbOgngZWTflMSqrjpBU0bt6mx0i7LYu3Yc7A&s"
+    },
+    {
+      "id": "106",
+      "name": "पनीर पालक",
+      "category": "पनीर कोर्स",
+      "description": "Paneer cooked with fresh spinach",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "image": "https://www.cookwithmanali.com/wp-content/uploads/2019/08/Palak-Paneer.jpg"
+    },
+    {
+      "id": "107",
+      "name": "चीज बटर मसाला",
+      "category": "पनीर कोर्स",
+      "description": "Cheese cooked in a rich butter masala gravy",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.9,
+      "image": "https://i.ytimg.com/vi/UYErtOn7Jv0/sddefault.jpg"
+    },
+    {
+      "id": "108",
+      "name": "मेथी मटर मलाई",
+      "category": "पनीर कोर्स",
+      "description": "Methi and peas cooked in a creamy sauce",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.7,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2024/03/methi-matar-malai-recipe.jpg"
+    },
+    {
+      "id": "109",
+      "name": "पनीर बटर मसाला",
+      "category": "पनीर कोर्स",
+      "description": "Classic paneer dish in a buttery tomato-based gravy",
+      "price": 150,
+      "discountPrice": 150,
+      "rating": 4.8,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQRfuxUNFK7RsIrhCQi1AE-xNBcSkTci5m75A&s"
+    },
+    {
+      "id": "110",
+      "name": "पनीर टिक्का मसाला",
+      "category": "पनीर कोर्स",
+      "description": "Paneer tikka in a flavorful masala curry",
+      "price": 180,
+      "discountPrice": 180,
+      "rating": 4.9,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTWziglJqfJTY0wBC8M2yV-orp1rmcXIB27ng&s"
+    },
+    {
+      "id": "111",
+      "name": "काजू करी",
+      "category": "पनीर कोर्स",
+      "description": "Cashew curry with a rich and creamy gravy",
+      "price": 180,
+      "discountPrice": 180,
+      "rating": 4.9,
+      "image": "https://s3-ap-south-1.amazonaws.com/betterbutterbucket-silver/avani-desai020180906175125678.jpeg"
+    },
+    {
+      "id": "112",
+      "name": "तवा चपाती",
+      "category": "रोटी की टोकरी",
+      "price": 15,
+      "image": "https://133309359.cdn6.editmysite.com/uploads/1/3/3/3/133309359/TWUKYE7IDVL6N2Y7BLVQQMVI.jpeg"
+    },
+    {
+      "id": "113",
+      "name": "बटर तवा चपाती",
+      "category": "रोटी की टोकरी",
+      "price": 20,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc2RljiGldEgRZJI9rr3dssxC22kuuN2RBOQ&s"
+
+    },
+    {
+      "id": "114",
+      "name": "तवा पराठा",
+      "category": "रोटी की टोकरी",
+      "price": 25,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzZ3SHXGSNIMrAOUcS-sUsXacETpzv7ZqTWQ&s"
+
+    },
+    {
+      "id": "115",
+      "name": "तंदूरी रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 15,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsvL085SjADnnuvkRZU2pF8EPmMufyzE30Mw&s"
+
+    },
+    {
+      "id": "116",
+      "name": "तंदूरी बटर रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 20,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2023/09/tandoori-roti.webp"
+
+    },
+    {
+      "id": "117",
+      "name": "ज्वार रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 25,
+      "image": "https://rotimatic.com/cdn/shop/articles/Jowar_Roti_-_Featured_Image_500x500.webp?v=1742365981"
+
+    },
+    {
+      "id": "118",
+      "name": "ज्वार बटर रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 30,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/04/jowar-roti-recipe-1-500x375.jpg"
+
+    },
+    {
+      "id": "119",
+      "name": "बाजरा रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 25,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuwp8cufK8TY09M86x-lkr2agpacd3bU439g&s"
+
+    },
+    {
+      "id": "120",
+      "name": "बाजरा बटर रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 30,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRELW3pM2lV5bZU580Z4aeRjZUZFJraF7UzQ&s"
+
+    },
+    {
+      "id": "121",
+      "name": "प्लेन नान",
+      "category": "रोटी की टोकरी",
+      "price": 30,
+      "image": "https://static.toiimg.com/thumb/53338316.cms?width=1200&height=900"
+
+    },
+    {
+      "id": "122",
+      "name": "बटर नान",
+      "category": "रोटी की टोकरी",
+      "price": 35,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/03/butter-naan-500x500.jpg"
+
+    },
+    {
+      "id": "123",
+      "name": "मिक्स रोटी",
+      "category": "रोटी की टोकरी",
+      "price": 40,
+      "image": "https://img-global.cpcdn.com/recipes/e278372430f5a637/680x482cq70/%E0%A4%AE%E0%A4%95%E0%A4%B8-%E0%A4%B0%E0%A4%9F-mix-roti-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+
+    },
+    {
+      "id": "124",
+      "name": "लच्छा पराठा",
+      "category": "रोटी की टोकरी",
+      "price": 30,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfYY8LMPfn_XaPWq8wd4CdYak11VBBfdZBxg&s"
+
+    },
+    {
+      "id": "125",
+      "name": "बटर लच्छा पराठा",
+      "category": "रोटी की टोकरी",
+      "price": 40,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvWIcRn1wzdev5c_x_ZvF9xd6wKbyaJqom1A&s"
+
+    },
+    {
+      "id": "126",
+      "name": "मेथी पराठा",
+      "category": "रोटी की टोकरी",
+      "price": 45,
+      "image": "https://rotimatic.com/cdn/shop/articles/Methi_Paratha_500x500.jpg?v=1718439269"
+
+    },
+    {
+      "id": "127",
+      "name": "गार्लिक नान",
+      "category": "रोटी की टोकरी",
+      "price": 50,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2022/12/garlic-naan-3.jpg"
+
+    },
+    {
+      "id": "128",
+      "name": "काश्मीरी नान",
+      "category": "रोटी की टोकरी",
+      "price": 60,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYYV5k-5YCdM98v2AuYWC0et3CtmQaYf4ZHQ&s"
+
+    },
+    {
+      "id": "129",
+      "name": "जीरा दाल",
+      "category": "दाल की बहार",
+      "price": 130,
+      "image": "https://d1mxd7n691o8sz.cloudfront.net/static/recipe/recipe/2023-12/aiopb2tky3w23fxlcmnz-ae3f14d916d743f3a99d56e0267a3359.jpg"
+
+    },
+    {
+      "id": "130",
+      "name": "दाल फ्राय",
+      "category": "दाल की बहार",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRMKHW2NYsNYLMUHjp-NCDk-pKuwqMQ3JHM8g&s"
+
+    },
+    {
+      "id": "131",
+      "name": "बटर दाल फ्राय",
+      "category": "दाल की बहार",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTj5078AETa8N6U1oiEW_BB5KECKrQ57lgHPQ&s"
+
+    },
+    {
+      "id": "132",
+      "name": "दाल तडका",
+      "category": "दाल की बहार",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRX-hXwQWAz5oSOQGmu9wuWe8f-s0ZjOdg3TA&s"
+    },
+    {
+      "id": "133",
+      "name": "दाल टोमॅटो",
+      "category": "दाल की बहार",
+      "price": 140,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2013/09/andhra-tomato-dal-recipe31.jpg"
+    },
+    {
+      "id": "134",
+      "name": "दाल कोल्हापुरी",
+      "category": "दाल की बहार",
+      "price": 140,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQfrd6uoo3D_HObMjDFnSChYXQrkfm2_KElog&s"
+    },
+    {
+      "id": "135",
+      "name": "दाल मखानी",
+      "category": "दाल की बहार",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvhMgbDqMWnYEF-67cQoHRGsnYUtZ0o30ZkQ&s"
+    },
+    {
+      "id": "136",
+      "name": "दाल मोगलाई",
+      "category": "दाल की बहार",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRShp6IsmilbEW4Z5icThR0TIBuNDYBQj55_g&s"
+    },
+    {
+      "id": "137",
+      "name": "दाल पालक",
+      "category": "दाल की बहार",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQf3-K8BJkxLZCbK17PAi-Jzd7_y1eadOybIw&s"
+    },
+    {
+      "id": "138",
+      "name": "ग्रिन पिस मसाला",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://i.ytimg.com/vi/OPPSfyaUnVU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDDQwruT0tnbJfw-UFznETNW-stoQ"
+    },
+    {
+      "id": "139",
+      "name": "व्हेज मख्खनवाला",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvkTviSO6T6ZZmx8i3MGOIuLGXIA3xDwejw&s"
+    },
+    {
+      "id": "140",
+      "name": "पनीर भुर्जी करी",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcqAA_Oxd8cJgqT9ZAFgKtnlrr53eGSBsog&s"
+    },
+    {
+      "id": "141",
+      "name": "पालक पनीर",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2020/06/palak-paneer-recipe.jpg"
+    },
+    {
+      "id": "142",
+      "name": "पनीर बटर मसाला",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTBtbWDvXfb94nP16r9Kin2IcWFcpbrFqq-ZA&s"
+    },
+    {
+      "id": "143",
+      "name": "नवरतन कोरमा",
+      "category": "जैन स्पेशल",
+      "price": 200,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2021/10/navratan-korma-recipe.jpg"
+    },
+    {
+      "id": "144",
+      "name": "आलु जिरा",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2018/04/jeera-aloo-recipe.jpg"
+    },
+    {
+      "id": "145",
+      "name": "मिक्स व्हेज",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2010/06/mix-veg-recipe-2-500x375.jpg"
+    },
+    {
+      "id": "146",
+      "name": "भेंडी रोस्ट",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQhL-eJEcN2oXcpFMkiP6ZFyy8csP71wEpuMg&s"
+    },
+    {
+      "id": "147",
+      "name": "प्लेन पालक",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://www.vegrecipesofindia.com/wp-content/uploads/2015/08/palak-paneer-restaurant-style-recipe24.jpg"
+    },
+    {
+      "id": "148",
+      "name": "लसुन मेथी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://i.ytimg.com/vi/dU1I4w71Egs/maxresdefault.jpg"
+    },
+    {
+      "id": "149",
+      "name": "आलु मटर",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://www.cubesnjuliennes.com/wp-content/uploads/2020/07/Punjabi-Aloo-Matar-Recipe.jpg"
+    },
+    {
+      "id": "150",
+      "name": "भेंडी मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://mygoodfoodworld.com/wp-content/uploads/2023/01/bhindi-masala-served.jpg"
+    },
+    {
+      "id": "151",
+      "name": "चना मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyXCDBOAVEGSZeUfujO9h69N-zVpKc_ey44Q&s"
+    },
+    {
+      "id": "152",
+      "name": "शिमला मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://i.ytimg.com/vi/vJEn8n-6WN8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLC6F_TtEUo59JX2xllvdPnW-sR-4A"
+    },
+    {
+      "id": "153",
+      "name": "व्हेज जाल फ्रेजी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8laF8uCUy2kRaD9I5MiKhd8gHYnQTaviIeg&s"
+    },
+    {
+      "id": "154",
+      "name": "व्हेज भुना",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://c.ndtvimg.com/2022-04/p63llld8_veg-bhuna-handi_625x300_01_April_22.jpg"
+    },
+    {
+      "id": "155",
+      "name": "व्हेज कोफ्ता करी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSjdWim6NyZEqBHMElXNKnB8c0T-J_hgseRdw&s"
+    },
+    {
+      "id": "156",
+      "name": "मेथी मटर मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://img-global.cpcdn.com/recipes/7b2957afae9208fc/680x482cq70/%E0%A4%AE%E0%A4%A5-%E0%A4%AE%E0%A4%9F%E0%A4%B0-%E0%A4%AE%E0%A4%B8%E0%A4%B2-methi-matar-masala-recipe-in-hindi-%E0%A4%B0%E0%A4%B8%E0%A4%AA-%E0%A4%AE%E0%A4%96%E0%A4%AF-%E0%A4%A4%E0%A4%B8%E0%A4%B5%E0%A4%B0.jpg"
+    },
+    {
+      "id": "157",
+      "name": "व्हेज जयपुरी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQpS7vSyhMWbrahteDw-2HIsFcRa1VdhDiPGQ&s"
+    },
+    {
+      "id": "158",
+      "name": "व्हेज हैद्राबादी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://img-global.cpcdn.com/recipes/b6c34249c5b1005b/680x482cq70/veg-hyderabadi-recipe-main-photo.jpg"
+    },
+    {
+      "id": "159",
+      "name": "व्हेज हंडी",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSn5vn7PX7QaCRtjdFpyII6eaOVTh1aGiHd9g&s"
+    },
+    {
+      "id": "160",
+      "name": "व्हेज किमा मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRiSEO5MHo_Ii0iDzW3v7IAK0gA-FVFL9THDw&s"
+    },
+    {
+      "id": "161",
+      "name": "व्हेज मशरूम मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNlJACqi3KirFretdnhtjR3gvQ2vPO0vcZAA&s"
+    },
+    {
+      "id": "162",
+      "name": "व्हेज तवा मसाला",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://i.ytimg.com/vi/T2_wAil9dck/maxresdefault.jpg"
+    },
+    {
+      "id": "163",
+      "name": "कढाई व्हेज",
+      "category": "व्हेज कोर्स",
+      "price": 130,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRhE-kn_-iR4l_yuTkS6CRVH4i_UzpJKYovNQ&s"
+    },
+    {
+      "id": "164",
+      "name": "व्हेज पटीयाला",
+      "category": "व्हेज कोर्स",
+      "price": 150,
+      "image": "https://c.ndtvimg.com/2021-09/fmhkpje_veg-patiala_625x300_23_September_21.jpg"
+    },
+    {
+      "id": "165",
+      "name": "व्हेज अंडा करी",
+      "category": "व्हेज कोर्स",
+      "price": 150,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRygbteWr7_Nrjbgtopy0meQO8jlvIjVuPLRA&s"
+
+    },
+    {
+      "id": "166",
+      "name": "खांडोळी भाजी",
+      "category": "व्हेज कोर्स",
+      "price": 150,
+      "image": "https://i.ytimg.com/vi/KYWJNjrWIAk/sddefault.jpg"
+
+    },
+    {
+      "id": "167",
+      "name": "स्टिम राईस",
+      "category": "बासमती की महक",
+      "price": 120,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS5Z_ajGv4SRGs3UvSnFUVPKcuTtCenfuazAQ&s"
+
+    },
+    {
+      "id": "168",
+      "name": "जिरा राईस",
+      "category": "बासमती की महक",
+      "price": 120,
+      "image": "https://www.indianhealthyrecipes.com/wp-content/uploads/2022/12/jeera-rice-recipe.webp"
+
+    },
+    {
+      "id": "169",
+      "name": "कर्ड राईस",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSUkutCpKiyhMcfLLer-irzDku_I64Gu1O0tQ&s"
+
+    },
+    {
+      "id": "170",
+      "name": "गार्लीक राईस",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://i.ytimg.com/vi/Ywx1_GteIc4/sddefault.jpg"
+
+    },
+    {
+      "id": "171",
+      "name": "ग्रिन पिस पुलाव",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqWEi5dn4xP9biePDNJoUm2K-ikUEGTzzkOA&s"
+
+    },
+    {
+      "id": "172",
+      "name": "दाल खिचडी",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS0x1Y1aP_V0O9cOeEMHMNdZWf_SgeXJNgtSQ&s"
+
+    },
+    {
+      "id": "173",
+      "name": "बटर दाल खिचडी",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQjAyiiNbMc1c-ddiwBmewL5aScUgo0GKmaiw&s"
+
+    },
+    {
+      "id": "174",
+      "name": "व्हेज पुलाव",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://cdn1.foodviva.com/static-content/food-images/rice-recipes/vegetable-pulav-recipe/vegetable-pulav-recipe.jpg"
+
+    },
+    {
+      "id": "175",
+      "name": "मसाला खिचडी",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://holycowvegan.net/wp-content/uploads/2014/06/masala-khichdi-featured-image.jpg"
+
+    },
+    {
+      "id": "176",
+      "name": "मसाला राईस",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLzB14a3OHWK1bdGQkgP2OfsbAc-Huw1CWyA&s"
+
+    },
+    {
+      "id": "177",
+      "name": "पनीर पुलाव",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://images.news18.com/ibnkhabar/uploads/2022/07/Paneer-Pulao.jpg"
+
+    },
+    {
+      "id": "178",
+      "name": "कश्मीरी पुलाव",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://c.ndtvimg.com/2018-12/5v130hbs_pulao_625x300_11_December_18.jpg"
+
+    },
+    {
+      "id": "179",
+      "name": "व्हेज बिर्यानी",
+      "category": "बासमती की महक",
+      "price": 160,
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1Ja24UiG96COANQY6LXyBO8eDYqBxYweOoQ&s"
+
+    }
+  ]
+  
+  
+}
