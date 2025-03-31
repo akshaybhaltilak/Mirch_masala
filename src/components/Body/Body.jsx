@@ -17,6 +17,7 @@ const DigitalMenuCard = () => {
   const [currentOfferIndex, setCurrentOfferIndex] = useState(0);
   const [isMobileFilterOpen, setIsMobileFilterOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+  const [categoryRefs, setCategoryRefs] = useState({});
 
   // Enhanced Offer Images with more details
   const offerImages = [
@@ -78,6 +79,13 @@ const DigitalMenuCard = () => {
     const uniqueCategories = ['All', ...new Set(foodItems.map(item => item.category))];
     setCategories(uniqueCategories);
     setFilteredItems(foodItems);
+    
+    // Initialize category refs for scrolling
+    const refs = {};
+    uniqueCategories.forEach(category => {
+      refs[category] = React.createRef();
+    });
+    setCategoryRefs(refs);
   }, [foodItems]);
 
   // Advanced Filtering
@@ -108,6 +116,14 @@ const DigitalMenuCard = () => {
   const handleCategorySelect = (category) => {
     setSelectedCategory(category);
     setIsMobileFilterOpen(false);
+    
+    // Scroll to the category section
+    if (categoryRefs[category] && categoryRefs[category].current) {
+      categoryRefs[category].current.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start'
+      });
+    }
   };
 
   const handleItemSelect = (item) => {
@@ -133,10 +149,23 @@ const DigitalMenuCard = () => {
     }
   };
 
-  // Get random rating for items
-  const getRandomRating = () => {
-    return (Math.random() * 2 + 3).toFixed(1); // Random rating between 3.0 and 5.0
-  };
+  // Group items by category for horizontal scrolling
+  const groupedItems = useMemo(() => {
+    const groups = {};
+    
+    if (selectedCategory !== 'All') {
+      groups[selectedCategory] = filteredItems;
+    } else {
+      filteredItems.forEach(item => {
+        if (!groups[item.category]) {
+          groups[item.category] = [];
+        }
+        groups[item.category].push(item);
+      });
+    }
+    
+    return groups;
+  }, [filteredItems, selectedCategory]);
 
   return (
     <div className="min-h-screen bg-gradient-to-br from-red-50 to-orange-50">
@@ -380,110 +409,83 @@ const DigitalMenuCard = () => {
           ))}
         </motion.div>
 
-        {/* Menu Grid - Enhanced with staggered animation */}
-        <motion.div 
-          className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-5 md:gap-6"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.6 }}
-        >
-          {filteredItems.length === 0 ? (
-            <motion.div 
-              className="col-span-full flex flex-col items-center justify-center py-16 text-center"
-              initial={{ opacity: 0 }}
-              animate={{ opacity: 1 }}
-              transition={{ delay: 0.7 }}
-            >
-              <FaSearch className="text-4xl text-red-300 mb-4" />
-              <h3 className="text-xl font-bold text-red-800 mb-2">No items found</h3>
-              <p className="text-red-600">Try adjusting your search or category filter</p>
-            </motion.div>
-          ) : (
-            filteredItems.map((item, index) => (
-              <motion.div
-                key={item.id}
-                onClick={() => handleItemSelect(item)}
-                className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl cursor-pointer transform transition-all duration-500 group"
-                whileHover={{ 
-                  scale: 1.03,
-                  y: -5
-                }}
-                whileTap={{ scale: 0.98 }}
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ 
-                  opacity: 1, 
-                  y: 0,
-                  transition: { delay: 0.1 * (index % 8) } 
-                }}
-              >
-                <div 
-                  className="h-40 md:h-52 bg-cover bg-center relative overflow-hidden"
-                  style={{ backgroundImage: `url(${item.image})` }}
-                >
-                  <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-                  
-                  <motion.div 
-                    className="absolute top-3 right-3 bg-white/90 px-2 py-1 rounded-lg text-xs font-bold text-red-600"
-                  >
-                    {getRandomRating()} <FaStar className="inline ml-1 text-yellow-500" />
-                  </motion.div>
-                  
-                  <motion.button
-                    className="absolute bottom-0 left-0 right-0 bg-gradient-to-t from-red-600 to-red-500 text-white py-2 text-sm font-bold translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center"
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    <FaInfoCircle className="mr-2" /> View Details
-                  </motion.button>
-                </div>
-                
-                <div className="p-4 md:p-5 bg-white">
-                  <h3 className="font-bold text-lg mb-2 text-red-800 truncate">{item.name}</h3>
-                  <p className="text-xs text-gray-500 line-clamp-2 mb-3 h-8">
-                    {item.description || "Delicious and freshly prepared to satisfy your cravings."}
-                  </p>
-                  <div className="flex justify-between items-center">
-                    <div className="flex flex-col">
-                      <span className="text-red-600 font-bold text-lg md:text-xl">₹{item.price}</span>
-                      {item.discountPrice && (
-                        <span className="line-through text-gray-400 text-xs">
-                          ₹{item.discountPrice}
-                        </span>
-                      )}
-                    </div>
-                    <motion.span 
-                      className={`
-                        text-xs px-3 py-1 rounded-full font-bold flex items-center
-                        ${item.subCategory === 'Veg' 
-                          ? 'bg-green-100 text-green-800' 
-                          : 'bg-red-100 text-red-800'}
-                      `}
-                      whileHover={{ scale: 1.1 }}
-                    >
-                      {item.subCategory === 'Veg' ? 
-                        <FaLeaf className="mr-1 text-green-600" /> : 
-                        <FaDrumstickBite className="mr-1 text-red-600" />
-                      }
-                      {item.subCategory}
-                    </motion.span>
-                  </div>
-                </div>
-              </motion.div>
-            ))
-          )}
-        </motion.div>
-
-        {/* "No Results" Message */}
-        {filteredItems.length === 0 && (
+        {/* Menu Items by Category - Horizontal Scrolling */}
+        {filteredItems.length === 0 ? (
           <motion.div 
-            className="text-center py-12"
+            className="col-span-full flex flex-col items-center justify-center py-12 text-center"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ delay: 0.6 }}
+            transition={{ delay: 0.7 }}
           >
-            <FaSearch className="mx-auto text-4xl text-red-300 mb-4" />
-            <h3 className="text-xl font-bold text-red-800 mb-2">No items found</h3>
-            <p className="text-red-600">Try adjusting your search or category filter</p>
+            <FaSearch className="text-3xl text-red-300 mb-3" />
+            <h3 className="text-lg font-bold text-red-800 mb-1">No items found</h3>
+            <p className="text-sm text-red-600">Try adjusting your search or category filter</p>
           </motion.div>
+        ) : (
+          Object.entries(groupedItems).map(([category, items]) => (
+            <div key={category} ref={categoryRefs[category]}>
+              <motion.h2 
+                className="text-xl font-bold text-red-800 mb-4 mt-8 flex items-center"
+                initial={{ opacity: 0, x: -20 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ delay: 0.1 }}
+              >
+                {getCategoryIcon(category)}
+                {category}
+              </motion.h2>
+              
+              <motion.div 
+                className="flex overflow-x-auto pb-6 space-x-4 no-scrollbar"
+                style={{
+                  scrollbarWidth: 'none',
+                  msOverflowStyle: 'none',
+                  WebkitOverflowScrolling: 'touch'
+                }}
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                transition={{ delay: 0.2 }}
+              >
+                {items.map((item, index) => (
+                  <motion.div
+                    key={item.id}
+                    onClick={() => handleItemSelect(item)}
+                    className="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg cursor-pointer transform transition-all duration-300 group flex-shrink-0 w-36 sm:w-44 md:w-48"
+                    whileHover={{ 
+                      scale: 1.02,
+                      y: -2
+                    }}
+                    whileTap={{ scale: 0.98 }}
+                    initial={{ opacity: 0, x: 20 }}
+                    animate={{ 
+                      opacity: 1, 
+                      x: 0,
+                      transition: { delay: 0.05 * (index % 10) } 
+                    }}
+                  >
+                    <div 
+                      className="h-28 sm:h-32 bg-cover bg-center relative overflow-hidden"
+                      style={{ backgroundImage: `url(${item.image})` }}
+                    >
+                      <div className="absolute inset-0 bg-gradient-to-b from-transparent to-black/50 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                    </div>
+                    
+                    <div className="p-2 sm:p-3 bg-white">
+                      <h3 className="font-bold text-sm sm:text-base mb-1 text-red-800 truncate">{item.name}</h3>
+                      <div className="flex justify-between items-center">
+                        <span className="text-red-600 font-bold text-sm sm:text-base">₹{item.price}</span>
+                        <span>
+                          {item.subCategory === 'Veg' ? 
+                            <FaLeaf className="mr-0.5 text-green-600" /> : 
+                            <FaDrumstickBite className="mr-0.5 text-red-600" />
+                          }
+                        </span>
+                      </div>
+                    </div>
+                  </motion.div>
+                ))}
+              </motion.div>
+            </div>
+          ))
         )}
 
         {/* Item Details Modal - Enhanced */}
@@ -544,17 +546,6 @@ const DigitalMenuCard = () => {
                         {selectedItem.subCategory}
                       </span>
                       <h2 className="text-2xl md:text-3xl font-bold mb-1">{selectedItem.name}</h2>
-                      <div className="flex items-center">
-                        <div className="flex items-center mr-3">
-                          {[...Array(5)].map((_, i) => (
-                            <FaStar 
-                              key={i} 
-                              className={`text-xs ${i < 4 ? 'text-yellow-400' : 'text-gray-300'}`} 
-                            />
-                          ))}
-                        </div>
-                        <span className="text-xs font-medium">{getRandomRating()} ratings</span>
-                      </div>
                     </motion.div>
                   </div>
                 </div>
@@ -587,33 +578,11 @@ const DigitalMenuCard = () => {
                       In Stock
                     </span>
                   </motion.div>
-                  
-                  <motion.div 
-                    className="flex items-center space-x-3"
-                    initial={{ opacity: 0, y: 10 }}
-                    animate={{ opacity: 1, y: 0 }}
-                    transition={{ delay: 0.5 }}
-                  >
-                    <div className="flex items-center border-2 border-gray-200 rounded-full">
-                      <button className="px-4 py-2 text-gray-500 hover:text-red-600 text-lg font-bold">-</button>
-                      <span className="px-4 py-2 font-semibold">1</span>
-                      <button className="px-4 py-2 text-gray-500 hover:text-red-600 text-lg font-bold">+</button>
-                    </div>
-                    <motion.button 
-                      className="flex-1 bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white py-3 rounded-full font-bold shadow-lg"
-                      whileHover={{ scale: 1.03 }}
-                      whileTap={{ scale: 0.97 }}
-                    >
-                      Add to Cart
-                    </motion.button>
-                  </motion.div>
                 </div>
               </motion.div>
             </motion.div>
           )}
         </AnimatePresence>
-
-       
       </div>
     </div>
   );
