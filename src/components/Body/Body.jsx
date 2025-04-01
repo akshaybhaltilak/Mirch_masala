@@ -179,19 +179,7 @@ const DigitalMenuCard = () => {
         transition={{ type: 'spring', stiffness: 120, damping: 20 }}
       >
         <div className="max-w-7xl mx-auto flex justify-between items-center">
-          <motion.div 
-            className="flex items-center"
-            whileHover={{ scale: 1.05 }}
-            whileTap={{ scale: 0.95 }}
-          >
-            <FaUtensils className="text-red-600 text-2xl md:text-3xl mr-3" />
-            <div>
-              <h1 className="text-2xl md:text-3xl font-extrabold text-red-800 tracking-tight">
-                WebReich
-              </h1>
-              <p className="text-red-600 text-xs md:text-sm font-medium">Discover Delicious Flavors</p>
-            </div>
-          </motion.div>
+        
           
           {/* Search Bar in Header when scrolled */}
           {isScrolled && (
