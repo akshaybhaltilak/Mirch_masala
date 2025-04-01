@@ -22,28 +22,28 @@ const DigitalMenuCard = () => {
   // Enhanced Offer Images with more details
   const offerImages = [
     {
-      title: '🔥 Feast Frenzy Extravaganza!',
-      description: 'Unlock 40% OFF on our chef\'s most exclusive gourmet creations',
+      title: '🔥 Bahubali Shahibhoj!',
+      description: 'Enjoy unlimited food for 4 person in just 1800 Rs',
       bg: 'bg-cover bg-center',
-      image: 'https://images.pexels.com/photos/905847/pexels-photo-905847.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSZYYrZqkOEOVjD4gPNDhnAt2SCjHYWEPTe-g&s'
     },
     {
-      title: '🍕 Pizza Paradise Bonanza',
-      description: 'Buy 2 Pizzas, Get 3rd FREE + Unlimited Garlic Bread!',
+      title: 'Hotel Mirch Masala',
+      description: 'व्हेज कोर्स',
       bg: 'bg-cover bg-center',
-      image: 'https://images.pexels.com/photos/106343/pexels-photo-106343.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS4-IxWGA9XUgjdH26GeRmgI-KzXROkdm6wbv02Nsx74duMXHfUG8VcadDHptEm4pO1nrU&usqp=CAU'
     },
     {
-      title: '🍣 Sushi Lovers Delight',
-      description: 'All-You-Can-Eat Sushi Night - 50% OFF Premium Rolls!',
+      title: 'जैन स्पेशल',
+      description: 'जैन स्पेशल व्हेज',
       bg: 'bg-cover bg-center',
-      image: 'https://images.pexels.com/photos/2116094/pexels-photo-2116094.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1'
+      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNcqAA_Oxd8cJgqT9ZAFgKtnlrr53eGSBsog&s'
     },
     {
-      title: '🍔 Burger Blowout Weekend',
-      description: 'Craft Burger Challenge: 5 Unique Burgers, Insane Discounts!',
+      title: 'वन्हाडी तडका',
+      description: 'वन्हाडी तडका!',
       bg: 'bg-cover bg-center',
-      image: 'https://images.pexels.com/photos/1639562/pexels-photo-1639562.jpeg?auto=compress&cs=tinysrgb&w=600'
+      image: 'https://i.ytimg.com/vi/ln8jTsjjJEY/sddefault.jpg'
     }
   ];
 
